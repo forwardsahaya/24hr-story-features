@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Feature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stories-container">
+        <!-- Stories will be dynamically added here -->
+        <div class="story" id="add-story">
+            <div class="add-button">+</div>
+        </div>
+    </div>
+
+    <!-- Modal for uploading images -->
+    <div class="modal" id="upload-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="file" id="image-upload" accept="image/*">
+        </div>
+    </div>
+
+    <!-- Story Viewer -->
+    <div class="story-viewer" id="story-viewer">
+        <span class="close-viewer">&times;</span>
+        <img id="story-image" src="" alt="Story Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
